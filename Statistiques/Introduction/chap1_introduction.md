@@ -29,7 +29,7 @@ Une variable qualitative est dite **nominale**, lorsque ses modalités ne peuven
 
 Récupérez le dataset dans student.csv, dans le dossier data et étudiez le critère couleur des yeux.
 
-1. Créez un tableau avec une colonne supplémentaires des fréquences de la couleur des yeux. Arrondissez à deux décimales les valeurs. Quelle est le type de la variable "Couleur des yeux" ?
+1. Créez un tableau avec une colonne supplémentaire des fréquences de la couleur des yeux. Arrondissez à deux décimales les valeurs. Quelle est le type de la variable "Couleur des yeux" ?
 
 2. Créez à partir du tableau précédent un diagramme en secteur.
 
