@@ -50,3 +50,50 @@ La classe modale est la classe dont la fréquence par unité d'amplitude est la 
 Cette classe correspond donc au rectangle le plus haut de l'histogramme des fréquences.
 
 Trouvez la classe modale de notre dataset notes statistiques.
+
+
+## Corrections exercices fréquence
+
+```python
+import pandas as pd
+students = pd.read_csv('./data/students.csv')
+students.head()
+
+```
+
+On peut renommer les colonnes du dataframe :
+
+```python
+students = students.rename(columns={'Couleur des yeux': 'eye_color', 'Mention au Bac': 'mention'})
+```
+
+On regroupe maintenant par couleur des yeux :
+
+```python
+# Création d'un objet groupby les [[]]  permette d'avoir un nouveau DataFrame
+df = students.groupby("eye_color")[['eye_color']].count()
+# On renomme la colonne eye_color
+df.columns = ['Effectif']
+```
+
+Création d'une nouvelle colonne pour la fréquence :
+
+```python
+df['frequence'] = df/df.sum()
+df['pourcentage'] = df['frequence'] * 100
+df = df.round(2)
+```
+
+Puis on représente le Dataframe en diagramme en secteur. Pour finir définissez une variable colors et précisez chacune des couleurs.
+
+```python
+%matplotlib notebook
+import matplotlib.pyplot as plt
+plt.pie(df['Effectif'].values, labels=df.index.values,
+        autopct='%1.1f%%')
+
+plt.axis('equal')
+
+plt.savefig('eye_color.png')
+plt.show()
+```
