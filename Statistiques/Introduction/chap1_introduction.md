@@ -59,7 +59,7 @@ Trouvez la classe modale de notre dataset notes statistiques.
 
 ### Définition du mode
 
-Le mode correspond à la valeur de la variable pour laquelle l'effectif (ou la fréquence) est le plus grand.
+Le mode d'une variable, par exemple ici Nombre d'enfants (variable), correspond à la valeur de la variable pour laquelle l'effectif (ou la fréquence) est le plus grand.
 
 Recensement des familles dans la population dont le nombre d'enfants est de moins de 14 ans.
 
