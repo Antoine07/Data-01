@@ -97,7 +97,7 @@ Ces objets sont des **indicateurs de position** en statistiques. Au même titre 
 
 La médiane (notée Me ) d'une variable quantitative est la valeur de cette variable qui permet de scinder la population étudiée en deux sous-populations de même effectif.
 
-La notion de quantile d'ordre $\alpha$ ($0 \leq \alpha \leq 1$), encore appelée fractile d'ordre $\alpha$, généralise la notion de médiane. Le quantile d'ordre $\alpha$ d'une variable quantitative X, est la valeur $X_{\alpha}$ de cette variable qui permet de scinder la population étudiée en deux sous-populations dont les effectifs respectifs sont égaux à $\alpha$ et 1 − $\alpha$ de l'effectif de la population initiale.
+La notion de quantile d'ordre $\alpha$ ($0 \leq \alpha \leq 1$), encore appelée fractile d'ordre $\alpha$, généralise la notion de médiane. Le quantile d'ordre $\alpha$ d'une variable quantitative X, est la valeur $X_{\alpha}$ de cette variable qui permet de scinder la population étudiée en deux sous-populations dont les effectifs respectifs sont égaux à $\alpha$ et $1 - \alpha$ de l'effectif de la population initiale.
 
 ## Exercice Quartile Définition
 
