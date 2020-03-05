@@ -61,7 +61,7 @@ Trouvez la classe modale de notre dataset notes statistiques.
 
 Le mode correspond à la valeur de la variable pour laquelle l'effectif (ou la fréquence) est le plus grand.
 
-Recensement des familles dans la population dont le nombre d'enfants de moins de 14 ans.
+Recensement des familles dans la population dont le nombre d'enfants est de moins de 14 ans.
 
 | Nombre d'enfants |     Nombre de famille    |
 | ---------------  |  ----------------------: |
