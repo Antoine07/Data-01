@@ -82,9 +82,9 @@ Certaines variables peuvent présenter plusieurs modes.
 | Prix             |     Effectifs            |
 | -------------    |  ----------------------: |
 | [210, 230]       |        30                |
-| [210, 230]       |        60                |
-| [210, 230]       |        100               |
-| [210, 230]       |        20                |
+| ]230, 250]       |        60                |
+| ]250, 270]       |        100               |
+| ]270, 290]       |        20                |
 |                  |        total = 210       |
 
 Créez un histogramme à partir des données suivantes. Pensez à créer un DataFrame et définisser des classes à l'aide de la méthode cut de Pandas, par exemple. Et déterminez enfin le mode de la série statistique.
