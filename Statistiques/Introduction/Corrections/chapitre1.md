@@ -132,7 +132,7 @@ def median(l):
 # On crée un tableau avec toutes les valeurs notes
 ser = []
 for i, note in enumerate(notes):
-        ser = ser + [note] * effectif[i]
+        ser = ser + [note] * effectifs[i]
 
 # 12
 print( median(ser) )
@@ -145,7 +145,7 @@ import numpy as np
 
 ser = np.array(ser)
 # var = 2.64
-var = np.sum( (ser - ser.mean())**2) / len(ser)
+var = np.sum( (ser - ser.mean())**2 ) / len(ser)
 ```
 
 2.4 On définit l'écart type comme étant la racine de la variance. Calculez l'écart type des notes de cette classe.
@@ -174,4 +174,4 @@ m = np.sum(neff) / np.sum(effectifs)
 
 La médiane + 1
 
-La variance et l'écart type change faiblement. Mesure de dispertion.
+La variance et l'écart type change faiblement. Mesure de dispersion.
