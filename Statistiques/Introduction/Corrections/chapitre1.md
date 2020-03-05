@@ -132,7 +132,7 @@ def median(l):
 # On crée un tableau avec toutes les valeurs notes
 ser = []
 for i, note in enumerate(notes):
-        ser = ser + [note] * effectif[i]
+        ser = ser + [note] * effectifs[i]
 
 # 12
 print( median(ser) )
@@ -174,4 +174,4 @@ m = np.sum(neff) / np.sum(effectifs)
 
 La médiane + 1
 
-La variance et l'écart type change faiblement. Mesure de dispertion.
+La variance et l'écart type change faiblement. Mesure de dispersion.
