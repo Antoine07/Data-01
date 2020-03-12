@@ -1,0 +1,12 @@
+\select@language {french}
+\select@language {francais}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Nuages de points}{2}{chapter.2}
+\contentsline {section}{\numberline {1}D\IeC {\'e}finition s\IeC {\'e}rie double}{2}{section.2.1}
+\contentsline {section}{\numberline {2}D\IeC {\'e}finition Point moyen}{2}{section.2.2}
+\contentsline {section}{\numberline {3}Covariance et \IeC {\'e}cart type}{3}{section.2.3}
+\contentsline {section}{\numberline {4}Ajustement affine par moindre carr\IeC {\'e}s}{4}{section.2.4}
+\contentsline {section}{\numberline {5}indicateur de corr\IeC {\'e}lation}{5}{section.2.5}
+\contentsline {section}{\numberline {6}Croissance exponentielle}{6}{section.2.6}
+\contentsline {section}{\numberline {7}Moyennes g\IeC {\'e}om\IeC {\'e}trique}{7}{section.2.7}
+\contentsline {subsection}{\numberline {7.1}g\IeC {\'e}n\IeC {\'e}ralisation}{7}{subsection.2.7.1}

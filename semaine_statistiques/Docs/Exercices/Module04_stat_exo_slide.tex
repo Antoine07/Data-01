@@ -1,0 +1,85 @@
+\documentclass{beamer}
+  \usepackage{D:/cours/INGESUP/package/model_slide}    
+  
+  \begin{document}
+  
+  \title{Listes d'exercices Module04  }
+  \subtitle{Statistiques}
+  \maketitle
+
+  \begin{frame} % premier transparent
+  \frametitle{Statistiques}
+  \begin{exercice}[1]
+   Soit un véhicule qui avance à 10km/h sur une distance de 20km puis augmente sa vitesse et avance à 120km/h sur une distance de 200km. Calculer la moyenne des vitesses sur l'ensemble du parcours.
+  \end{exercice}
+
+\end{frame}
+
+\begin{frame} % deuxième transparent
+  \frametitle{Statistiques}
+  \begin{exercice}[2.1]
+    \begin{tabular}{|c|c|c|c|c|c|}
+      \hline
+      effectifs : & 5 & 5 & 4 & 6 & 2 \\
+      \hline
+      notes : & 9 & 13 & 14 & 17 & 18\\
+      \hline
+   \end{tabular}
+   \\
+   Soit le tableau ci-dessus : notes des étudiants de l'école. Calculer la moyenne, l'écart type et la médiane. Faites un script Python pour effectuer chacun de ces calculs, attention à la médiane, c'est la valeur centrale de la série statistique, donnez son indice par rapport à l'effectif total. 
+  \end{exercice}
+
+\end{frame}
+
+\begin{frame} % deuxième transparent
+  \frametitle{Statistiques}
+  \begin{exercice}[2.2 Challenge]
+  Reprendre l'execice 2.1 et afficher la valeur de la médiane dans la liste de note à l'aide d'un script Python.
+  \end{exercice}
+\end{frame}
+
+\begin{frame} % troisème transparent
+  \frametitle{Statistiques}
+  \begin{exercice}[3]
+Soit une entreprise qui vend des cartes réseaux. Le tableau suivant indique le pourcentage de cartes réseaux qui ont une panne au cours des x semestres : 
+
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    x semestres : & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+    \hline
+    y pourcentage : & 2 & 3 & 4 & 7 & 9 & 11 & 16 & 20 & 23 & 31 \\
+    \hline
+ \end{tabular}
+ \begin{itemize}
+   \item 1) Représenter graphiquement en Python le nuage de points
+   \item 2) Calculer moyennes, variances et covariances.
+   \item 3) Déterminer/représenter une équation de la droite D, droite de régression linéaire de y en fonction de x.
+ \end{itemize}
+\end{exercice}
+\end{frame}
+
+\begin{frame} % quatrième transparent
+  \frametitle{Statistiques}
+  \begin{exercice}[4]
+On a mesuré la distance D nécessaire à un voiture éléctrique pour stopper, en fonction de sa vitesse v :
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    v (m/s) : & 13.89 & 19.44 & 27.78 & 33.33  \\
+    \hline
+    D (m) : & 30 & 60 & 105 & 160  \\
+    \hline
+ \end{tabular}
+ \begin{itemize}
+   \item 1) Représenter graphiquement en Python le nuage de points
+   \item 2) Les points du nuage associé à la série $(v^2, D)$ étant presque alignés on pose l'ajustement affine suivant : $ D = k \times v^2 + \lambda$. Déterminer les valeurs au centième des coefficients $k, \lambda$.
+   \item 3) En utilisant ce modèle, estimer les distances d'arrêt d'une voiture roulant respectivement à 90km/h et 150km/h.
+ \end{itemize}
+ Pour ces exercices aidez-vous de Python pour effectuer les calculs.
+\end{exercice}
+\end{frame}
+
+\begin{frame} % dernière transparent
+ Fin des exercices sur les statistiques, merci de les avoir suivis.
+\end{frame}
+  
+\end{document}
